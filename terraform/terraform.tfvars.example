@@ -1,0 +1,15 @@
+# AWS Configuration
+aws_region  = "us-east-1"
+environment = "dev"
+
+# Project Configuration
+project_name = "bedrock-ocr"
+
+# Bedrock Models
+ocr_model_id        = "anthropic.claude-3-sonnet-20240229-v1:0"
+embedding_model_id  = "amazon.titan-embed-text-v1"
+validation_model_id = "anthropic.claude-3-sonnet-20240229-v1:0"
+
+# Lambda Configuration
+lambda_timeout = 900
+lambda_memory  = 2048

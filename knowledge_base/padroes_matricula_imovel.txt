@@ -1,0 +1,158 @@
+PADRÕES DE MATRÍCULA DE IMÓVEL BRASILEIRO
+
+1. ESTRUTURA GERAL DA MATRÍCULA
+- Número da matrícula (único por cartório)
+- Livro de registro
+- Folha
+- Cartório de Registro de Imóveis (CRI) com comarca
+- Data de abertura da matrícula
+
+2. DADOS DO IMÓVEL
+- Descrição completa do imóvel
+- Endereço completo (logradouro, número, bairro, cidade, UF, CEP)
+- Área total do terreno (em m²)
+- Área construída (em m²) quando aplicável
+- Confrontações (limites e confrontantes)
+- Inscrição municipal (IPTU)
+- Inscrição cadastral
+- Loteamento/Quadra/Lote (quando aplicável)
+
+3. REGISTRO DE PROPRIEDADE (R.1, R.2, etc)
+- Número do registro (R.1, R.2, R.3...)
+- Proprietário(s) atual(is)
+- CPF/CNPJ do(s) proprietário(s)
+- Estado civil
+- Regime de bens (se casado)
+- Forma de aquisição (compra e venda, doação, herança, etc)
+- Valor da transação
+- Data do registro
+- Título de origem (escritura pública, formal de partilha, etc)
+- Livro, folha e data do título
+
+4. ÔNUS E GRAVAMES (AV.1, AV.2, etc)
+- Hipotecas
+- Penhoras
+- Arrestos
+- Servidões
+- Usufruto
+- Alienação fiduciária
+- Cada averbação tem número sequencial (AV.1, AV.2...)
+- Data da averbação
+- Credor (em caso de hipoteca/alienação)
+- Valor do ônus
+
+5. AVERBAÇÕES DIVERSAS
+- Alteração de estado civil
+- Mudança de nome
+- Retificação de área
+- Construção/Demolição
+- Desmembramento/Remembramento
+- Cancelamento de ônus
+- Cada averbação numerada sequencialmente
+
+6. CERTIDÕES E OBSERVAÇÕES
+- Certidão de ônus reais
+- Certidão de inteiro teor
+- Observações do oficial registrador
+- Remissões a outras matrículas
+
+VALIDAÇÕES OBRIGATÓRIAS:
+
+1. Estrutura:
+   - Matrícula deve ter número único
+   - Deve conter cabeçalho com dados do cartório
+   - Deve ter pelo menos um registro de propriedade (R.1)
+
+2. Dados do Imóvel:
+   - Endereço completo e válido
+   - CEP no formato XXXXX-XXX
+   - Área em metros quadrados (número positivo)
+   - Inscrição municipal (IPTU) presente
+   - Confrontações descritas
+
+3. Proprietário:
+   - Nome completo
+   - CPF válido (11 dígitos com verificadores) ou CNPJ válido (14 dígitos)
+   - Estado civil declarado
+   - Se casado, regime de bens informado
+
+4. Registros:
+   - Numeração sequencial (R.1, R.2, R.3...)
+   - Data de registro válida (não futura)
+   - Forma de aquisição especificada
+   - Título de origem identificado
+
+5. Ônus e Gravames:
+   - Se houver hipoteca/alienação, deve ter credor identificado
+   - Valor do ônus especificado
+   - Data da averbação
+   - Status (ativo/cancelado)
+
+6. Averbações:
+   - Numeração sequencial (AV.1, AV.2, AV.3...)
+   - Data válida
+   - Motivo da averbação claro
+   - Assinatura do oficial quando aplicável
+
+7. Consistência:
+   - Proprietário atual deve corresponder ao último registro
+   - Ônus cancelados devem ter averbação de cancelamento
+   - Áreas devem ser consistentes (construída ≤ terreno)
+   - Datas em ordem cronológica
+
+ALERTAS IMPORTANTES:
+
+⚠️ Matrícula com ônus ativos (hipoteca, penhora, alienação)
+⚠️ Proprietário diferente do declarado na transação
+⚠️ Área divergente da inscrição municipal
+⚠️ Matrícula cancelada ou substituída
+⚠️ Ausência de certidão negativa de débitos
+⚠️ Confrontações incompletas
+⚠️ Registro com mais de 30 dias sem averbação de ITBI
+
+TIPOS DE IMÓVEIS:
+
+1. Terreno urbano
+2. Casa
+3. Apartamento
+4. Sala comercial
+5. Galpão/Armazém
+6. Terreno rural
+7. Chácara/Sítio
+8. Lote em condomínio
+
+DOCUMENTOS RELACIONADOS:
+
+- Escritura pública de compra e venda
+- ITBI (Imposto de Transmissão de Bens Imóveis)
+- Certidão negativa de débitos municipais
+- Certidão negativa de débitos federais
+- Habite-se (para imóveis construídos)
+- Memorial descritivo
+- Planta do imóvel
+
+EXEMPLO DE ESTRUTURA:
+
+MATRÍCULA Nº: 12.345
+LIVRO: 2
+FOLHA: 100
+CARTÓRIO: 1º Ofício de Registro de Imóveis de [Cidade]
+DATA DE ABERTURA: 15/03/2010
+
+IMÓVEL:
+Terreno urbano situado na Rua [Nome], nº [Número], Bairro [Bairro],
+Cidade [Cidade], Estado [UF], CEP [CEP]
+Área: 250,00 m²
+Inscrição Municipal: XXX.XXX.XXX.XXX
+
+R.1 - REGISTRO DE PROPRIEDADE
+Proprietário: [Nome Completo]
+CPF: XXX.XXX.XXX-XX
+Estado Civil: [Estado]
+Data: 15/03/2010
+Título: Escritura Pública de Compra e Venda
+
+AV.1 - AVERBAÇÃO
+Hipoteca em favor de [Banco]
+Valor: R$ XXX.XXX,XX
+Data: 20/03/2010

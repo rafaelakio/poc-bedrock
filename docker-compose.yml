@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  bedrock-ocr:
+    build: .
+    container_name: bedrock-ocr-app
+    volumes:
+      - ./knowledge_base:/app/knowledge_base
+      - ./output:/app/output
+      - ./input:/app/input
+    environment:
+      - AWS_REGION=${AWS_REGION:-us-east-1}
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - OCR_MODEL_ID=${OCR_MODEL_ID:-anthropic.claude-3-sonnet-20240229-v1:0}
+      - EMBEDDING_MODEL_ID=${EMBEDDING_MODEL_ID:-amazon.titan-embed-text-v1}
+      - VALIDATION_MODEL_ID=${VALIDATION_MODEL_ID:-anthropic.claude-3-sonnet-20240229-v1:0}
+    command: python main.py --input-dir /app/input

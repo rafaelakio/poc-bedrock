@@ -1,0 +1,39 @@
+PADRÕES DE DOCUMENTOS BRASILEIROS
+
+1. RG (Registro Geral)
+- Deve conter: número do RG, nome completo, data de nascimento, filiação, naturalidade
+- Formato do número: XX.XXX.XXX-X ou variações estaduais
+- Deve ter órgão emissor e UF
+- Deve conter foto do titular
+
+2. CPF (Cadastro de Pessoa Física)
+- Formato: XXX.XXX.XXX-XX
+- 11 dígitos numéricos
+- Últimos dois dígitos são verificadores
+- Deve validar algoritmo de dígito verificador
+
+3. CNH (Carteira Nacional de Habilitação)
+- Número de registro com 11 dígitos
+- Categoria (A, B, C, D, E, AB, etc)
+- Data de emissão e validade
+- Deve conter foto e assinatura
+- Código de segurança
+
+4. Comprovante de Residência
+- Deve conter: nome do titular, endereço completo
+- Data de emissão (máximo 90 dias)
+- Tipos aceitos: conta de luz, água, telefone, gás, extrato bancário
+- Deve ter CNPJ da empresa emissora
+
+5. Certidões
+- Certidão de Nascimento: nome, data de nascimento, filiação, cartório
+- Certidão de Casamento: nomes dos cônjuges, data, regime de bens
+- Deve conter número de registro e livro
+- Assinatura do oficial de registro
+
+VALIDAÇÕES GERAIS:
+- Datas devem estar no formato DD/MM/AAAA
+- CPF deve passar na validação de dígito verificador
+- Endereços devem conter CEP válido (XXXXX-XXX)
+- Documentos não podem estar vencidos (quando aplicável)
+- Fotos devem estar legíveis e não adulteradas

@@ -1,0 +1,39 @@
+PADRÕES DE NOTAS FISCAIS
+
+1. NF-e (Nota Fiscal Eletrônica)
+- Chave de acesso: 44 dígitos
+- CNPJ do emitente (14 dígitos)
+- Número da nota fiscal
+- Série
+- Data de emissão
+- Valor total
+- Itens discriminados com valores
+- Impostos (ICMS, IPI, PIS, COFINS)
+- QR Code para validação
+
+2. NFS-e (Nota Fiscal de Serviços Eletrônica)
+- Número da nota
+- Código de verificação
+- CNPJ/CPF do prestador
+- CNPJ/CPF do tomador
+- Descrição dos serviços
+- Valor dos serviços
+- ISS (Imposto Sobre Serviços)
+- Data de emissão
+
+3. Cupom Fiscal
+- CNPJ do estabelecimento
+- Data e hora da emissão
+- Número do cupom
+- Itens com descrição e valores
+- Valor total
+- Forma de pagamento
+- Código de barras ou QR Code
+
+VALIDAÇÕES:
+- Chave de acesso NF-e deve ter 44 dígitos
+- CNPJ deve ser válido (14 dígitos com verificadores)
+- Soma dos itens deve corresponder ao valor total
+- Data de emissão não pode ser futura
+- Impostos devem estar discriminados
+- QR Code deve ser validável
